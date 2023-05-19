@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from "remark-gfm";
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ReactMarkdown># Heading1 </ReactMarkdown>
+      <ReactMarkdown>## Heading2 </ReactMarkdown>
+      <ReactMarkdown>### Heading3 </ReactMarkdown>
+      <ReactMarkdown>#### Heading4 </ReactMarkdown>
+      <ReactMarkdown>##### Heading5 </ReactMarkdown>
+      <ReactMarkdown>###### Heading6 </ReactMarkdown>
     </div>
-  );
+  )
 }
-
-export default App;
