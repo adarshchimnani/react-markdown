@@ -25,6 +25,8 @@ export default function App() {
       <ReactMarkdown>4. Bread</ReactMarkdown>
       <ReactMarkdown>**Bold Text**</ReactMarkdown>
 
+      <ReactMarkdown>*Italic Text*</ReactMarkdown>
+
     </div>
   )
 }
