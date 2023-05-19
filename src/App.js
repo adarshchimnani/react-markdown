@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import ReactDom from 'react-dom'
 import remarkGfm from "remark-gfm";
 
 export default function App() {
@@ -23,7 +22,6 @@ export default function App() {
       <ReactMarkdown>2. Apple</ReactMarkdown>
       <ReactMarkdown>3. Eggs</ReactMarkdown>
       <ReactMarkdown>4. Bread</ReactMarkdown>
-      
       <ReactMarkdown>**Bold Text**</ReactMarkdown>
 
       <ReactMarkdown>*Italic Text*</ReactMarkdown>
@@ -32,9 +30,9 @@ export default function App() {
 
       <ReactMarkdown> ![Stock Image](https://i.imgur.com/zOGQAQm.jpg)</ReactMarkdown>
 
-
-
-    
+      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+        ~~Strikethrough~~
+      </ReactMarkdown>
 
     </div>
   )
