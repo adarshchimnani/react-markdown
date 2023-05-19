@@ -23,12 +23,18 @@ export default function App() {
       <ReactMarkdown>2. Apple</ReactMarkdown>
       <ReactMarkdown>3. Eggs</ReactMarkdown>
       <ReactMarkdown>4. Bread</ReactMarkdown>
-
+      
       <ReactMarkdown>**Bold Text**</ReactMarkdown>
 
       <ReactMarkdown>*Italic Text*</ReactMarkdown>
 
       <ReactMarkdown>[Airplane's Website](https://www.airplane.dev/)</ReactMarkdown>
+
+      <ReactMarkdown> ![Stock Image](https://i.imgur.com/zOGQAQm.jpg)</ReactMarkdown>
+
+
+
+    
 
     </div>
   )
