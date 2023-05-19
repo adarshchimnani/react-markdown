@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
+import ReactDom from 'react-dom'
 import remarkGfm from "remark-gfm";
 
 export default function App() {
@@ -17,6 +18,12 @@ export default function App() {
       <ReactMarkdown>- Apple</ReactMarkdown>
       <ReactMarkdown>- Eggs</ReactMarkdown>
       <ReactMarkdown>- Bread</ReactMarkdown>
+
+      <ReactMarkdown>1. Ordered List</ReactMarkdown>
+      <ReactMarkdown>2. Apple</ReactMarkdown>
+      <ReactMarkdown>3. Eggs</ReactMarkdown>
+      <ReactMarkdown>4. Bread</ReactMarkdown>
+      <ReactMarkdown>**Bold Text**</ReactMarkdown>
 
     </div>
   )
