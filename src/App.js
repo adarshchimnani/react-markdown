@@ -12,6 +12,12 @@ export default function App() {
       <ReactMarkdown>#### Heading4 </ReactMarkdown>
       <ReactMarkdown>##### Heading5 </ReactMarkdown>
       <ReactMarkdown>###### Heading6 </ReactMarkdown>
+
+      <ReactMarkdown>- Unordered List</ReactMarkdown>
+      <ReactMarkdown>- Apple</ReactMarkdown>
+      <ReactMarkdown>- Eggs</ReactMarkdown>
+      <ReactMarkdown>- Bread</ReactMarkdown>
+
     </div>
   )
 }
