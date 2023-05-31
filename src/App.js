@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from "remark-gfm";
+import rehypeRaw from 'rehype-raw';
 
 export default function App() {
+
+  const input = `<div> Some *emphasis* and <strong>strong</strong>! </div>`
 
   return (
     <div>
@@ -33,6 +36,8 @@ export default function App() {
       <ReactMarkdown remarkPlugins={[remarkGfm]}>
         ~~Strikethrough~~
       </ReactMarkdown>
+
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={input} />
 
     </div>
   )
