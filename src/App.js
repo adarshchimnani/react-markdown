@@ -16,15 +16,16 @@ export default function App() {
       <ReactMarkdown>##### Heading5 </ReactMarkdown>
       <ReactMarkdown>###### Heading6 </ReactMarkdown>
 
-      <ReactMarkdown>- Unordered List</ReactMarkdown>
-      <ReactMarkdown>- Apple</ReactMarkdown>
+      <ReactMarkdown>- Milk</ReactMarkdown>
+      <ReactMarkdown>- Apples</ReactMarkdown>
       <ReactMarkdown>- Eggs</ReactMarkdown>
       <ReactMarkdown>- Bread</ReactMarkdown>
 
-      <ReactMarkdown>1. Ordered List</ReactMarkdown>
-      <ReactMarkdown>2. Apple</ReactMarkdown>
+      <ReactMarkdown>1. Milk</ReactMarkdown>
+      <ReactMarkdown>2. Apples</ReactMarkdown>
       <ReactMarkdown>3. Eggs</ReactMarkdown>
       <ReactMarkdown>4. Bread</ReactMarkdown>
+      
       <ReactMarkdown>**Bold Text**</ReactMarkdown>
 
       <ReactMarkdown>*Italic Text*</ReactMarkdown>
