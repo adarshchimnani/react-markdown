@@ -29,7 +29,10 @@ git clone https://github.com/your-username/react-markdown-renderer.git
 - cd react-markdown
 - npm i
 
-Open your web browser and visit http://localhost:3000 to see the rendered Markdown content.
+3. Start the development server:
+- npm start
+
+4. Open your web browser and visit http://localhost:3000 to see the rendered Markdown content.
 
 ## Usage
 
