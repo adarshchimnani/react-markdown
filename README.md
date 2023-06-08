@@ -25,7 +25,7 @@ This is a simple React application that demonstrates the usage of the `react-mar
 git clone https://github.com/your-username/react-markdown-renderer.git
 ```
 
-## Install the dependencies:
+2. Install the dependencies:
 - cd react-markdown
 - npm i
 
